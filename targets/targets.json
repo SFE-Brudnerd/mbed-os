@@ -9147,6 +9147,7 @@
         },
         "device_has": [
             "ANALOGIN",
+            "I2C",
             "PORT_IN",
             "PORT_OUT",
             "SERIAL",
