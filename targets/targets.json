@@ -9150,6 +9150,7 @@
             "ANALOGIN",
             "FLASH",
             "I2C",
+            "I2CSLAVE",
             "INTERRUPTIN",
             "PORT_IN",
             "PORT_OUT",
