@@ -9159,6 +9159,7 @@
             "SERIAL_FC",
             "SPI",
             "USTICKER",
+            "WATCHDOG",
             "USBDEVICE"
         ]
     },
