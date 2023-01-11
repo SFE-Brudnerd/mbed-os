@@ -9368,5 +9368,24 @@
                 "std"
             ]
         }
+    },
+    "SFE_NINAB306_THING_PLUS": {
+        "inherits": [
+            "MCU_NRF52840"
+        ],
+        "features_add": [
+            "STORAGE"
+        ],
+        "components_remove": [
+            "QSPIF"
+        ],
+        "device_has_add": ["WATCHDOG"],
+        "device_has_remove": [
+            "QSPI",
+            "ITM"
+        ],
+        "macros_add": [
+            "CONFIG_GPIO_AS_PINRESET"
+        ]
     }
 }
